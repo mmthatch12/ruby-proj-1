@@ -10,25 +10,25 @@ jane = {
 }
 
 sara = {
-first_name: 'Sara',
-last_name: 'Smith',
-level: :mid_level, 
-age: 26, 
-occupation: 'Software Developer', 
-employed: true,
-current_salaray: 80000.00, 
-languages: ['Ruby', 'Python']
+    first_name: 'Sara',
+    last_name: 'Smith',
+    level: :mid_level, 
+    age: 26, 
+    occupation: 'Software Developer', 
+    employed: true,
+    current_salaray: 80000.00, 
+    languages: ['Ruby', 'Python']
 }
 
 jason = {
-first_name: 'Jason',
-last_name: 'Gray',
-level: :entry_level, 
-age: 23, 
-occupation: 'Student', 
-employed: false,
-current_salaray: 0.00, 
-languages: ['C++', 'Python']
+    first_name: 'Jason',
+    last_name: 'Gray',
+    level: :entry_level, 
+    age: 23, 
+    occupation: 'Student', 
+    employed: false,
+    current_salaray: 0.00, 
+    languages: ['C++', 'Python']
 }
 
 candidates = [jane, sara, jason]
