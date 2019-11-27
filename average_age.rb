@@ -1,10 +1,12 @@
 def average_age(people)
-    ages = people.map { |pers| pers[:age] }
-    avg = ages.reduce(0) do |sum, age|
+    ages = people.map{|person| person[:age]}
+    total = ages.reduce(0) do |sum, age|
         sum = sum + age
         sum
     end
-    puts avg / people.length.to_f
+    average_age = total / people.length.to_f
+    average_age
 end
 
-average_age candidates
+# average_age(candidates)
+# => 26.333333333333332
